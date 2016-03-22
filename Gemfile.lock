@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    brane-redis (0.0.1)
+      pickup (~> 0.0.11)
+      redis (>= 3.2.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pickup (0.0.11)
+    redis (3.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  brane-redis!
